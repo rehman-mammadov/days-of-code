@@ -102,7 +102,6 @@
     💙 Əgər bu yolculuq sənə də ilham verirsə — bir <span>⭐</span> verə bilərsən!
   </p>
 </section>
-
     </div>
   </main>
 </body>
