@@ -94,15 +94,15 @@
 <p align="left">
 <a href="https://linkedin.com/in/rehmanmammadov" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rehmanmammadov" height="30" width="40" /></a>
 <a href="https://instagram.com/rehman.mammadov" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rehman.mammadov" height="30" width="40" /></a>
-<a href="https://discord.com/users/594201367669768217" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="30" width="40"/></a>
+<a href="https://discord.com/users/594201367669768217" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="_balaca" height="30" width="40" /></a>
 </p>
+<hr />
 </div>
   <p class="footer-note">
     💙 Əgər bu yolculuq sənə də ilham verirsə — bir <span>⭐</span> verə bilərsən!
   </p>
 </section>
 
-<hr />
     </div>
   </main>
 </body>
