@@ -30,7 +30,7 @@
           <div class="tools-row">
             <a
               class="tool-icon"
-              href="https://www.w3schools.com/cpp/"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +43,7 @@
             </a>
             <a
               class="tool-icon"
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
@@ -56,14 +56,7 @@
             </a>
             <a
               class="tool-icon"
-              href="https://www.python.org"
-              target="_blank"
-              rel="noreferrer"
-            >
-            </a>
-            <a
-              class="tool-icon"
-              href="https://www.w3.org/html/"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
