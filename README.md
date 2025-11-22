@@ -26,7 +26,7 @@
       <!-- Languages & Tools -->
       <section>
         <div class="section-card">
-          <h3 class="lang-title">💻 Languages and Tools</h3>
+          <h3 class="lang-title">💻 Dillər və Alətlər</h3>
           <div class="tools-row">
             <a
               class="tool-icon"
@@ -53,7 +53,6 @@
                 width="40"
                 height="40"
               />
-              <span>JavaScript</span>
             </a>
             <a
               class="tool-icon"
@@ -74,66 +73,9 @@
                 width="40"
                 height="40"
               />
-              <span>HTML5</span>
             </a>
           </div>
         </div>
-      </section>
-      <hr />
-      <!-- Günlük qeydlər -->
-      <section>
-        <h2>📘 Günlük Öyrənmə Qeydləri</h2>
-        <table class="notes-table">
-          <thead>
-            <tr>
-              <th>Gün</th>
-              <th>Mövzu</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Day 01</td>
-              <td>HTML əsasları</td>
-              <td><span class="link-pill">🔹</span></td>
-            </tr>
-            <tr>
-              <td>Day 02</td>
-              <td>CSS struktur və style</td>
-              <td><span class="link-pill">🔹</span></td>
-            </tr>
-            <tr>
-              <td>Day 03</td>
-              <td>Flexbox və Layout</td>
-              <td><span class="link-pill">🔹</span></td>
-            </tr>
-            <tr>
-              <td>Day 04</td>
-              <td>JavaScript giriş</td>
-              <td><span class="link-pill">🔹</span></td>
-            </tr>
-            <tr>
-              <td>...</td>
-              <td>...</td>
-              <td><span class="link-pill">🔹</span></td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="notes-hint">
-          Günlər artdıqca bu cədvəli öz layihələrin və qeydlərinlə yeniləyə bilərsən.
-        </p>
-      </section>
-      <hr />
-      <!-- Sənədləşdirdiklərim -->
-      <section>
-        <h2>⭐ Mən bu repoda nəyi sənədləşdirirəm?</h2>
-        <ul class="goals-list">
-          <li>HTML/CSS əsasları</li>
-          <li>JavaScript fundamental anlayışlar</li>
-          <li>Kod yazarkən qarşılaşdığım problemlər və həll yollarım</li>
-          <li>Öz miniprojektlərim</li>
-          <li>Qeydlər və dərs nəticələri</li>
-        </ul>
       </section>
       <hr />
       <!-- Motivasiya -->
