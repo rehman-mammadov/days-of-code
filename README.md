@@ -87,31 +87,41 @@
         </blockquote>
       </section>
       <hr />
-      <!-- Contact -->
-      <section>
-        <h3 class="contact-title">⚡ Contact</h3>
-        <div class="contact-row">
-          <a href="https://instagram.com/rehman.mammadov" target="_blank">
-            <img
-              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-              alt="Instagram"
-              height="34"
-              width="44"
-            />
-          </a>
-          <a href="https://discord.com/users/594201367669768217" target="_blank">
-            <img
-              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg"
-              alt="Discord"
-              height="34"
-              width="44"
-            />
-          </a>
-        </div>
-        <p class="footer-note">
-          💙 Əgər bu yolculuq sənə də ilham verirsə — bir <span>⭐</span> verə bilərsən!
-        </p>
-      </section>
+     <!-- Contact -->
+<section>
+  <h3 class="contact-title">⚡ Contact</h3>
+  <div class="contact-row">
+    <a href="https://instagram.com/rehman.mammadov" target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+        alt="Instagram"
+        height="34"
+        width="44"
+      />
+    </a>
+    <a href="https://discord.com/users/594201367669768217" target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg"
+        alt="Discord"
+        height="34"
+        width="44"
+      />
+    </a>
+    <a href="https://www.linkedin.com/in/senin-profil/" target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linkedin.svg"
+        alt="LinkedIn"
+        height="34"
+        width="44"
+      />
+    </a>
+  </div>
+  <p class="footer-note">
+    💙 Əgər bu yolculuq sənə də ilham verirsə — bir <span>⭐</span> verə bilərsən!
+  </p>
+</section>
+
+<hr />
     </div>
   </main>
 </body>
