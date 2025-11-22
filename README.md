@@ -28,19 +28,12 @@
         <div class="section-card">
           <h3 class="lang-title">💻 Dillər və Alətlər</h3>
           <div class="tools-row">
-            <a
-              class="tool-icon"
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
               <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
                 alt="cplusplus"
                 width="40"
                 height="40"
               />
-            </a>
             <a
               class="tool-icon"
               href=""
