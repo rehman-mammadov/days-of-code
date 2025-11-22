@@ -4,8 +4,6 @@
     <div class="content">
       <!-- Header -->
       <div class="badge">
-        <span class="badge-dot"></span>
-        <span>Front-end öyrənmə yolculuğu</span>
       </div>
       <h1><span class="emoji">🌟</span>Days of Code</h1>
       <p class="subtitle">
