@@ -8,13 +8,11 @@
       --border: #1f2937;
       --heading: #f9fafb;
     }
-
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         sans-serif;
@@ -25,7 +23,6 @@
       justify-content: center;
       padding: 2rem 1rem;
     }
-
     .page {
       width: 100%;
       max-width: 900px;
@@ -39,7 +36,6 @@
       position: relative;
       overflow: hidden;
     }
-
     .page::before {
       content: "";
       position: absolute;
@@ -50,12 +46,10 @@
       opacity: 0.7;
       pointer-events: none;
     }
-
     .content {
       position: relative;
       z-index: 1;
     }
-
     /* Header */
     .badge {
       display: inline-flex;
@@ -69,7 +63,6 @@
       color: var(--muted);
       margin-bottom: 0.75rem;
     }
-
     .badge-dot {
       width: 6px;
       height: 6px;
@@ -77,7 +70,6 @@
       background: #22c55e;
       box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.25);
     }
-
     h1 {
       font-size: clamp(2.25rem, 4vw, 2.8rem);
       color: var(--heading);
@@ -86,24 +78,20 @@
       align-items: center;
       gap: 0.6rem;
     }
-
     h1 span.emoji {
       font-size: 2.2rem;
     }
-
     .subtitle {
       color: var(--muted);
       max-width: 40rem;
       line-height: 1.6;
       margin-bottom: 1.8rem;
     }
-
     hr {
       border: none;
       border-top: 1px solid var(--border);
       margin: 1.8rem 0;
     }
-
     h2 {
       font-size: 1.3rem;
       margin-bottom: 0.8rem;
@@ -112,7 +100,6 @@
       align-items: center;
       gap: 0.4rem;
     }
-
     /* Məqsədim */
     .goals-list {
       list-style: none;
@@ -120,14 +107,12 @@
       gap: 0.4rem;
       padding-left: 0;
     }
-
     .goals-list li {
       position: relative;
       padding-left: 1.4rem;
       color: var(--text);
       font-size: 0.97rem;
     }
-
     .goals-list li::before {
       content: "•";
       position: absolute;
@@ -135,7 +120,6 @@
       top: 0.1rem;
       color: var(--accent);
     }
-
     /* Languages & Tools */
     .section-card {
       background: radial-gradient(circle at top left, var(--accent-soft), transparent 60%);
@@ -144,21 +128,18 @@
       padding: 1.2rem 1rem 1.3rem;
       margin-top: 0.4rem;
     }
-
     .lang-title {
       text-align: center;
       font-size: 1.1rem;
       margin-bottom: 1rem;
       color: var(--heading);
     }
-
     .tools-row {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
       flex-wrap: wrap;
     }
-
     .tool-icon {
       display: flex;
       flex-direction: column;
@@ -167,7 +148,6 @@
       font-size: 0.8rem;
       color: var(--muted);
     }
-
     .tool-icon img {
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       border-radius: 12px;
@@ -177,14 +157,12 @@
         0 8px 20px rgba(15, 23, 42, 0.9),
         0 0 0 1px rgba(15, 23, 42, 0.7);
     }
-
     .tool-icon:hover img {
       transform: translateY(-4px) scale(1.03);
       box-shadow:
         0 14px 30px rgba(15, 23, 42, 0.85),
         0 0 0 1px rgba(56, 189, 248, 0.3);
     }
-
     /* Günlük qeydlər cədvəli */
     .notes-table {
       width: 100%;
@@ -196,7 +174,6 @@
       border: 1px solid var(--border);
       background: rgba(15, 23, 42, 0.8);
     }
-
     .notes-table thead {
       background: linear-gradient(
         90deg,
@@ -204,14 +181,12 @@
         rgba(59, 130, 246, 0.16)
       );
     }
-
     .notes-table th,
     .notes-table td {
       padding: 0.55rem 0.8rem;
       text-align: left;
       border-bottom: 1px solid rgba(30, 64, 175, 0.35);
     }
-
     .notes-table th {
       font-weight: 600;
       color: var(--heading);
@@ -219,23 +194,18 @@
       letter-spacing: 0.03em;
       text-transform: uppercase;
     }
-
     .notes-table td {
       color: var(--text);
     }
-
     .notes-table tbody tr:nth-child(odd) {
       background: rgba(15, 23, 42, 0.9);
     }
-
     .notes-table tbody tr:nth-child(even) {
       background: rgba(15, 23, 42, 0.75);
     }
-
     .notes-table tbody tr:hover {
       background: rgba(15, 23, 42, 0.98);
     }
-
     .link-pill {
       display: inline-flex;
       align-items: center;
@@ -247,14 +217,12 @@
       color: var(--accent);
       font-size: 0.85rem;
     }
-
     .notes-hint {
       margin-top: 0.6rem;
       font-size: 0.83rem;
       color: var(--muted);
       font-style: italic;
     }
-
     /* Motivasiya */
     blockquote {
       border-left: 3px solid var(--accent);
@@ -263,18 +231,15 @@
       color: var(--muted);
       font-size: 0.92rem;
     }
-
     blockquote p {
       margin-bottom: 0.4rem;
     }
-
     /* Contact */
     .contact-title {
       text-align: center;
       font-size: 1.1rem;
       margin-bottom: 0.8rem;
     }
-
     .contact-row {
       display: flex;
       justify-content: center;
@@ -282,37 +247,30 @@
       align-items: center;
       flex-wrap: wrap;
     }
-
     .contact-row a img {
       transition: transform 0.2s ease, filter 0.2s ease;
       filter: drop-shadow(0 8px 18px rgba(15, 23, 42, 0.9));
     }
-
     .contact-row a:hover img {
       transform: translateY(-3px) scale(1.05);
       filter: drop-shadow(0 10px 24px rgba(56, 189, 248, 0.6));
     }
-
     .footer-note {
       margin-top: 1.4rem;
       text-align: center;
       font-size: 0.9rem;
       color: var(--muted);
     }
-
     .footer-note span {
       color: var(--accent);
     }
-
     @media (max-width: 640px) {
       .page {
         padding: 1.8rem 1.3rem;
       }
-
       .tools-row {
         gap: 1rem;
       }
-
       .notes-table th,
       .notes-table td {
         padding: 0.5rem 0.6rem;
