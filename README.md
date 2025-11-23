@@ -12,7 +12,7 @@
       <hr />
       <!-- Məqsədim -->
       <section>
-        <h2>🎯 Məqsədim</h2>
+        <h2>🎯My goal</h2>
         <ul class="goals-list">
           <li>To improve my front-end development skills</li>
           <li>Learning HTML, CSS, JavaScript, and React</li>
@@ -51,6 +51,7 @@
 </div>
   <p class="footer-note">
     💙 Əgər bu yolculuq sənə də ilham verirsə — bir <span>⭐</span> verə bilərsən!
+    <br>
     💙 If this journey inspires you too — you can give it a <span>⭐</span>!
   </p>
 </section>
