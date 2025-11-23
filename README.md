@@ -7,7 +7,9 @@
       </div>
       <h1><span class="emoji">🌟</span>Days of Code</h1>
       <p class="subtitle">
-       This repo was created to document my Front-end Development learning journey. Every day I post new topics, code snippets, tasks, and knowledge I've learned.
+       This repo was created to document my Front-end Development learning journey. 
+      <br>
+      Every day I post new topics, code snippets, tasks, and knowledge I've learned.
       </p>
       <hr />
       <!-- Məqsədim -->
