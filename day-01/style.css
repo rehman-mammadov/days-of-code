@@ -5,3 +5,42 @@
     max-height: 150px;
     background-color: lightcoral;
   }
+
+  .container{
+    display: flex;
+  }
+
+  /* figure img {
+    border: 4px solid red;
+  } */
+
+  img + figcaption {
+    border: 4px solid black;
+  }
+
+  h2 + p {
+    color: green;
+  }
+
+  .inline-block-element {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .element1 {
+    background-color: lightblue;
+  }
+  
+  .element2 {
+    background-color: lightgreen;
+  }
+  
+  p {
+    margin: 10px;
+    border: 2px solid black;
+  }
+
+  p {
+    padding: 20px;
+    border: 2px solid black;
+  }
