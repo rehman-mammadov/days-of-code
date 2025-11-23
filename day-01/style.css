@@ -44,3 +44,39 @@
     padding: 20px;
     border: 2px solid black;
   }
+
+
+  p {
+    color: blue;
+  }
+
+  #para {
+    color: red; 
+  }
+
+  #para {
+    color: red; 
+  }
+  
+  .example-para {
+    color: green;
+  }
+  
+  p {
+    color: blue;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .para {
+    background-color: black;
+    color: white;
+  }
+
+  .para {
+    background-color: black !important;
+    color: white !important;
+  }
