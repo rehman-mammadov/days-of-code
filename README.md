@@ -7,25 +7,25 @@
       </div>
       <h1><span class="emoji">🌟</span>Days of Code</h1>
       <p class="subtitle">
-        Bu repo mənim Front-end Development öyrənmə yolculuğumu sənədləşdirmək üçün
-        yaradılıb. Hər gün yeni mövzu, kod parçaları, tapşırıqlar və öyrəndiyim
-        bilikləri burada qeyd edirəm.
+       This repo was created to document my Front-end Development learning journey. 
+      <br>
+      Every day I post new topics, code snippets, tasks, and knowledge I've learned.
       </p>
       <hr />
       <!-- Məqsədim -->
       <section>
-        <h2>🎯 Məqsədim</h2>
+        <h2>🎯My goal</h2>
         <ul class="goals-list">
-          <li>Front-end development bacarıqlarımı inkişaf etdirmək</li>
-          <li>HTML, CSS, JavaScript və React öyrənmək</li>
-          <li>Hər gün ən azı bir faydalı kod yazmaq</li>
-          <li>Öyrəndiklərimi sənədləşdirmək və paylaşmaq</li>
+          <li>To improve my front-end development skills</li>
+          <li>Learning HTML, CSS, JavaScript, and React</li>
+          <li>Write at least one useful piece of code every day</li>
+          <li>Documenting and sharing what I've learned</li>
         </ul>
       </section>
       <hr />
       <!-- Languages & Tools -->
       <section>
-          <h3 class="lang-title">💻 Dillər və Alətlər</h3>
+          <h3 class="lang-title">💻 Languages ​​and Tools</h3>
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/>
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="50" height="50"/>
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
@@ -33,7 +33,7 @@
       <hr />
       <!-- Motivasiya -->
       <section>
-        <h2>🧠 Motivasiya</h2>
+        <h2>🧠 Motivation</h2>
         <blockquote>
           <p><em>"Hər gün bir az kod yazmaq — bir gün böyük inkişaf deməkdir."</em></p>
           <p><em>"Consistency is better than perfection."</em></p>
@@ -53,6 +53,8 @@
 </div>
   <p class="footer-note">
     💙 Əgər bu yolculuq sənə də ilham verirsə — bir <span>⭐</span> verə bilərsən!
+    <br>
+    💙 If this journey inspires you too — you can give it a <span>⭐</span>!
   </p>
 </section>
     </div>
