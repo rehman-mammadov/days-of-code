@@ -2,3 +2,27 @@
     margin: 0;
 }
 
+li {
+    margin-bottom: ;
+    line-height: 2;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+}
+
+a:visited {
+    color: purple;
+    border-bottom: 1px solid purple;
+}
+
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: darkorange;
+}
