@@ -3,7 +3,6 @@
 }
 
 li {
-    margin-bottom: ;
     line-height: 2;
 }
 
@@ -26,3 +25,7 @@ a:hover {
 a:active {
     color: darkorange;
 }
+
+a:focus {
+    outline: 2px solid orange;
+  }
