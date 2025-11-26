@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Arm Control</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #f4f4f4; 
+            margin: 0; padding: 0; 
+        }
+        h1 { 
+            background-color: #007bff; 
+            color: white; 
+            padding: 15px; 
+            margin-bottom: 30px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            max-width: 600px;
+        }
+        .block { 
+            background: white;
+            padding: 20px; 
+            margin-bottom: 20px; 
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .slider { width: 100%; }
+        .btn-group button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-group button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🛠️ 643.23 Robot İdarəetmə Paneli</h1>
+<div class="container">
+
+    <div class="block">
+        <h3>Baza Döndürmə</h3>
+        <input type="range" min="0" max="180" value="90" class="slider" id="B">
+        <div class="btn-group">
+            <button onclick="move('B',45)">⟲ 45° Sola</button>
+            <button onclick="move('B',135)">↻ 45° Sağa</button>
+        </div>
+    </div>
+
+    <div class="block">
+        <h3>Çiyin Hərəkəti</h3>
+        <input type="range" min="0" max="180" value="90" class="slider" id="S">
+        <div class="btn-group">
+            <button onclick="move('S',45)">⬆ Yuxarı</button>
+            <button onclick="move('S',135)">⬇ Aşağı</button>
+        </div>
+    </div>
+
+    <div class="block">
+        <h3>Dirsək Hərəkəti</h3>
+        <input type="range" min="0" max="180" value="90" class="slider" id="E">
+        <div class="btn-group">
+            <button onclick="move('E',45)">⬆ Qaldır</button>
+            <button onclick="move('E',135)">⬇ Endir</button>
+        </div>
+    </div>
+
+    <div class="block">
+        <h3>Qısqac (Aç-Bağla)</h3>
+        <input type="range" min="10" max="90" value="50" class="slider" id="G">
+        <div class="btn-group">
+            <button onclick="move('G',10)">🔓 Aç</button>
+            <button onclick="move('G',90)">🔒 Bağla</button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    const sliders = document.querySelectorAll(".slider");
+    sliders.forEach(slider => {
+        slider.addEventListener("change", () => {
+            sendCommand(slider.id, slider.value);
+        });
+    });
+
+    function move(id, value) {
+        document.getElementById(id).value = value;
+        sendCommand(id, value);
+    }
+
+    function sendCommand(id, value) {
+        fetch("/set?cmd=" + id + value);
+    }
+</script>
+
+</body>
+</html>
