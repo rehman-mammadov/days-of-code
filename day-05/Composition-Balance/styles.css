@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background:#f4f4f4;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.section{
+    margin-bottom: 60px ;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.asymmetrical .box:nth-child(1){
+    transform: scale(1.5);
+    background: #e74c3c;
+}
+
+.description{
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+    color: #333;
+}
