@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5d7d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.brick {
+    background-color: #b57070;
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+    gap: .9375rem;
+    height: 80px;
+}
+
+.brick-small{
+    flex: 1;
+}
+
+.brick-large{
+    flex: 2;
+}
